@@ -1,0 +1,8 @@
+﻿  TextRendering.cpp
+  Generating code
+  0 of 1195 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+SDL2main.lib(SDL_windows_main.obj) : warning LNK4049: locally defined symbol ___iob_func imported
+  Game Engine.vcxproj -> D:\DIGIPEN\Semester's\1st sem\CS529\Milestone 4\Milestone 4\Game Engine\Release\Game Engine.exe

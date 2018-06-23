@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="transform.cpp">
+      <Filter>components</Filter>
+    </ClCompile>
+    <ClCompile Include="sprite.cpp">
+      <Filter>components</Filter>
+    </ClCompile>
+    <ClCompile Include="controller.cpp">
+      <Filter>components</Filter>
+    </ClCompile>
+    <ClCompile Include="component.cpp">
+      <Filter>components</Filter>
+    </ClCompile>
+    <ClCompile Include="updown.cpp">
+      <Filter>components</Filter>
+    </ClCompile>
+    <ClCompile Include="Body.cpp">
+      <Filter>components</Filter>
+    </ClCompile>
+    <ClCompile Include="Physicsmanager.cpp">
+      <Filter>components</Filter>
+    </ClCompile>
+    <ClCompile Include="inputmanager.cpp">
+      <Filter>Input manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Collisionmanager.cpp">
+      <Filter>Collision Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectFactory.cpp">
+      <Filter>Object Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectManager.cpp">
+      <Filter>Game Object manager</Filter>
+    </ClCompile>
+    <ClCompile Include="gameobject.cpp">
+      <Filter>Game Object</Filter>
+    </ClCompile>
+    <ClCompile Include="frc.cpp">
+      <Filter>Farme Rate Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Eventmanager.cpp">
+      <Filter>Event Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="rsrcmgr.cpp">
+      <Filter>Resource Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="phantomengine.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>components</Filter>
+    </ClCompile>
+    <ClCompile Include="HomingEnemy.cpp">
+      <Filter>components</Filter>
+    </ClCompile>
+    <ClCompile Include="LineSegment2D.cpp" />
+    <ClCompile Include="Math2D.cpp" />
+    <ClCompile Include="Vector2D.cpp" />
+    <ClCompile Include="Homingmissile.cpp">
+      <Filter>components</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix2D.cpp">
+      <Filter>components</Filter>
+    </ClCompile>
+    <ClCompile Include="TextRendering.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="transform.h">
+      <Filter>components</Filter>
+    </ClInclude>
+    <ClInclude Include="sprite.h">
+      <Filter>components</Filter>
+    </ClInclude>
+    <ClInclude Include="controller.h">
+      <Filter>components</Filter>
+    </ClInclude>
+    <ClInclude Include="component.h">
+      <Filter>components</Filter>
+    </ClInclude>
+    <ClInclude Include="updown.h">
+      <Filter>components</Filter>
+    </ClInclude>
+    <ClInclude Include="Body.h">
+      <Filter>components</Filter>
+    </ClInclude>
+    <ClInclude Include="Physicsmanager.h">
+      <Filter>components</Filter>
+    </ClInclude>
+    <ClInclude Include="Math2D.h">
+      <Filter>Libraryimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix2D.h">
+      <Filter>Libraryimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2D.h">
+      <Filter>Libraryimp</Filter>
+    </ClInclude>
+    <ClInclude Include="LineSegment2D.h">
+      <Filter>Libraryimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="inputmanager.h">
+      <Filter>Input manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Collisionmanager.h">
+      <Filter>Collision Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectFactory.h">
+      <Filter>Object Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectManager.h">
+      <Filter>Game Object manager</Filter>
+    </ClInclude>
+    <ClInclude Include="gameobject.h">
+      <Filter>Game Object</Filter>
+    </ClInclude>
+    <ClInclude Include="frc.h">
+      <Filter>Farme Rate Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Eventmanager.h">
+      <Filter>Event Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="rsrcmgr.h">
+      <Filter>Resource Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="phantomengine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OpenGL\GLEW\glew-2.1.0\include\GL\eglew.h">
+      <Filter>External Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OpenGL\GLEW\glew-2.1.0\include\GL\glew.h">
+      <Filter>External Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OpenGL\GLEW\glew-2.1.0\include\GL\glxew.h">
+      <Filter>External Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>External Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OpenGL\GLEW\glew-2.1.0\include\GL\wglew.h">
+      <Filter>External Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>components</Filter>
+    </ClInclude>
+    <ClInclude Include="HomingEnemy.h">
+      <Filter>components</Filter>
+    </ClInclude>
+    <ClInclude Include="Homingmissile.h">
+      <Filter>components</Filter>
+    </ClInclude>
+    <ClInclude Include="powerup.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="components">
+      <UniqueIdentifier>{5774da2e-17f4-4e0f-953f-4ac4b9b2c655}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraryimp">
+      <UniqueIdentifier>{7342f8bf-b942-4929-9c57-d5938fe116a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{194dd59f-2faa-4103-a2dc-978b56299c28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input manager">
+      <UniqueIdentifier>{19ce38d6-6e3b-4113-a61f-3ef5909989b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collision Manager">
+      <UniqueIdentifier>{976d8c4c-9eef-47a9-8909-8e03bb8d02af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object Factory">
+      <UniqueIdentifier>{086a5309-1a29-41d2-a398-74c5054b8588}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Object manager">
+      <UniqueIdentifier>{36776765-9e50-42c1-a4cf-a0484543f9ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Object">
+      <UniqueIdentifier>{a441b1f1-ba2a-40b0-8b1c-67d7c917bf24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Farme Rate Controller">
+      <UniqueIdentifier>{f746bd3b-4c77-4273-b4b6-d98b76d47252}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Event Manager">
+      <UniqueIdentifier>{60259b3a-35fa-4a49-97ec-11c335c2f420}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Manager">
+      <UniqueIdentifier>{b0117e8b-a100-4d83-b497-00b7c2aa6441}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{128e327b-c389-4858-a47b-6a95115952b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External Libraries">
+      <UniqueIdentifier>{3ae980c4-5ac9-4834-a880-ea73014a880b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="shipshader.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shipshader.vs">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,12 @@
+TRANSFORM
+0.1 -0.6
+SPRITE
+Asteroid
+ENEMY
+1
+BODY
+0
+RECTANGLE
+0.05 0.05
+active
+1

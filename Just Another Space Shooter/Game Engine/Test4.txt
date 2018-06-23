@@ -1,0 +1,12 @@
+TRANSFORM
+-0.4 -0.33
+SPRITE
+Asteroid
+UPDOWN
+1
+BODY
+0
+RECTANGLE
+0.05 0.05
+active
+1
